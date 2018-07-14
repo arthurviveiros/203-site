@@ -1,0 +1,139 @@
+/* SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL SOCIAL  */
+
+/* Config principal dos icones    Config principal dos icones */
+
+/* Quando estiver com o mouse em cima, abre o menu */
+#iconemenu{
+    position: relative;
+    left: 85vw;  
+    padding: 5px;
+    border-radius: 100%;
+    background-color: black;
+    height: 6vw;
+    width: 6vw;
+    margin: 10px;
+}
+#iconemenu:hover{
+    background-color: white;
+    width: 90vw;
+    left: 0vw;
+    border-radius: 0%;
+    height: 70px;
+}
+#iconemenu:hover var{
+display: flex;
+
+}
+
+/* Menu de icones */
+#iconesheader{
+    display: none;
+    justify-content: flex-end;  
+
+}
+
+#iconeemail{
+    padding: 5px;
+    border-radius: 100%;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+#iconeyoutube{
+    padding: 5px;
+    background-color: black;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+#iconefacebook{
+    padding: 5px;
+    background-color: black;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+#iconetwitter{
+    padding: 5px;
+    background-color: black;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+#iconeinstagram{
+    padding: 5px;
+    background-color: black;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+/* Trocar cor icones    Trocar cor icones    Trocar cor icones */
+#iconeemail:hover{
+    background-color: #d7473b;
+    
+}
+#iconeyoutube:hover{
+    background-color: #fe0000;
+}
+#iconefacebook:hover{
+    background-color: #4267b2;
+}
+#iconetwitter:hover{
+    background-color: #1da1f2;
+}
+#iconeinstagram:hover{
+    background-color: #d93687;
+}
+
+
+/* RESPONSABILIDADE__ICONES__RESPONSABILIDADE__ICONES__RESPONSABILIDADE__ICONES__RESPONSABILIDADE__ICONES__RESPONSABILIDADE__ICONES__RESPONSABILIDADE__ICONES__ */
+@media (min-width:400px){
+}
+
+
+/* TÍTULO     TÍTULO     TÍTULO     TÍTULO     */
+
+#titulo{
+    position: relative;
+    padding: 10pt;
+    bottom: 33px;
+    width: 80%;
+    height: 80%;
+
+}
+
+/* MENU MENU MENU MENU MENU MENU MENU  */
+#menu{
+    display: flex;
+    position: relative;
+
+
+}
+.menuitems{
+    position: relative;
+    padding: 5px;
+    justify-content:  center;
+    bottom: 25.5vw;
+    left: 17vw;
+    font-size: 3vw;
+    display: flex;
+    position: relative;
+    font-family: 'Titillium Web';
+
+}
+
+#imagemenu{
+    position: relative;
+    padding: 5px;
+    justify-content:  center;
+    bottom: 50px;
+    left: 2vw;
+    height: 100%;
+    width: 100%;
+}
